@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
-import { postMovies , getMovies } from './controllers/moviesController.js';
+import { postMovies , getMovies ,putMovies,getSearch,searchKeyword,patchMovie ,deleteMovie} from './controllers/moviesController.js';
 import Movie from './model/Movies.js';
 dotenv.config({path:"../.env"});
 const app=express();
@@ -34,6 +34,16 @@ const connectDB=async ()=>{
 app.post('/movies',postMovies);
 
 app.get('/movies',getMovies);
+
+app.put("/movies/:id",putMovies);
+
+app.get('/movies/search/:id',getSearch);
+
+app.get('/movies/searchByKeyword',searchKeyword);
+
+app.patch('/movies/:id',patchMovie);
+
+app.delete('/movies/delete/:id',deleteMovie);
 
 app.listen(PORT,()=>{
     

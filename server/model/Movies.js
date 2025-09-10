@@ -3,14 +3,16 @@ import {model,Schema} from 'mongoose';
 
 const movieSchema=new Schema({
 
-    title: { type: String },
-  description: { type: String },
-  images: { type: [String] },
+    title: { type: String ,require:true},
+  description: { type: String ,require:true },
+  images: { type: [String], require:true },
   language: { type: String },
   director: { type: String },
   year: { type: Number },
   rating: { type: Number },
-});
+},
+ {timestamps:true},
+);
 
 const Movie=model("Movie",movieSchema);
 
