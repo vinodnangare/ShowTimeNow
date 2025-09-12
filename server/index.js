@@ -4,11 +4,12 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import { postMovies , getMovies ,putMovies,getSearch,searchKeyword,patchMovie ,deleteMovie} from './controllers/moviesController.js';
 import Movie from './model/Movies.js';
+
 dotenv.config({path:"../.env"});
 const app=express();
 app.use(express.json());
 
-
+app.use(cors());
 app.get('/',(req,res)=>{
     res.send("ShowTimeNow Server is Running Now");
 });
