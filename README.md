@@ -33,7 +33,4 @@ The project uses **React + TailwindCSS** on the frontend and **Node.js + Express
 - Express.js  
 - MongoDB (Mongoose ORM)  
 
----
-
-## 📂 Project Structure
 
