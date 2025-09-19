@@ -1,12 +1,37 @@
-# React + Vite
+# [🎬 ShowTimeNow]{https://showtimenow-client.onrender.com/}
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+ShowTimeNow is a **MERN stack web application** that allows users to manage films with full **CRUD operations** (Create, Read, Update, Delete).  
+The project uses **React + TailwindCSS** on the frontend and **Node.js + Express.js + MongoDB** on the backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Live Demo: [ShowTimeNow](https://showtimenow-client.onrender.com/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ➕ **Add Films** – Add new films with title, description, and details.  
+- 📄 **Display Films** – View all films in a clean, responsive UI.  
+- ✏️ **Update Films** – Edit and update film information.  
+- ❌ **Delete Films** – Remove films from the list.  
+- 🌐 **REST APIs** – Backend built with **Express.js** and **MongoDB**.  
+- 🎨 **Responsive UI** – Styled with **TailwindCSS**.  
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- React.js  
+- TailwindCSS  
+- Axios (for API requests)  
+
+**Backend:**  
+- Node.js  
+- Express.js  
+- MongoDB (Mongoose ORM)  
+
+---
+
+## 📂 Project Structure
+
