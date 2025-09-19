@@ -1,4 +1,4 @@
-# [🎬 ShowTimeNow]{https://showtimenow-client.onrender.com/}
+# 🎬 [ShowTimeNow](https://showtimenow-client.onrender.com/)
 
 
 ShowTimeNow is a **MERN stack web application** that allows users to manage films with full **CRUD operations** (Create, Read, Update, Delete).  
