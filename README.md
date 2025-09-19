@@ -1,5 +1,7 @@
 # 🎬 [ShowTimeNow](https://showtimenow-client.onrender.com/)
 
+> ⚠️ **Note:** This project is hosted on Render's free tier, so the server may take up to **1 minute** to start on the first load. Thanks for waiting 🙏
+
 
 ShowTimeNow is a **MERN stack web application** that allows users to manage films with full **CRUD operations** (Create, Read, Update, Delete).  
 The project uses **React + TailwindCSS** on the frontend and **Node.js + Express.js + MongoDB** on the backend.
